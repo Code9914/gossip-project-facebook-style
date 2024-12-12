@@ -1,0 +1,28 @@
+fr:
+  activerecord:
+    errors:
+      messages:
+        record_invalid: "La validation a échoué : %{errors}"
+        blank: "ne peut pas être vide"
+        too_short: "est trop court (minimum est de %{count} caractères)"
+        taken: "a déjà été pris"
+        confirmation: "ne correspond pas à %{attribute}"
+
+    attributes:
+      user:
+        name: "Nom"
+        email: "Email"
+        password: "Mot de passe"
+        
+  helpers:
+    label:
+      session:
+        email: "Email"
+        password: "Mot de passe"
+
+  errors:
+    format: "%{attribute} %{message}"
+    messages:
+      blank: "ne peut pas être vide"
+      too_short: "est trop court (minimum est de %{count} caractères)"
+      invalid: "est invalide"
